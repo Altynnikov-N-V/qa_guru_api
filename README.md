@@ -17,9 +17,10 @@
 
 ## <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" height="20" width="20"> Запуск тестов локально
 
-1) Клонировать репозиторий: git clone https://github.com/ashurko/qa_guru_python_21_diploma_api.git
+1) Клонировать репозиторий: git clone https://github.com/Altynnikov-N-V/qa_guru_api.git
 2) Установить зависимости: pip install -r requirements.txt
-3) Запуск тестов с генерацией отчетов Allure: pytest --alluredir=reports/allure-results
+3) Запуск тестов с генерацией отчетов Allure: allure serve tests/allure-results
+
 
 
 
