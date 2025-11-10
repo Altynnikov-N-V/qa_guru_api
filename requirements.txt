@@ -1,0 +1,9 @@
+allure-pytest
+pytest~=8.4.2
+selene==2.0.0rc9
+requests~=2.32.5
+beautifulsoup4~=4.14.2
+allure-python-commons~=2.15.0
+termcolor
+jsonschema
+requests
