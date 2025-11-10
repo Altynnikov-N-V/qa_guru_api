@@ -19,7 +19,8 @@
 
 1) Клонировать репозиторий: git clone https://github.com/Altynnikov-N-V/qa_guru_api.git
 2) Установить зависимости: pip install -r requirements.txt
-3) Запуск тестов с генерацией отчетов Allure: allure serve tests/allure-results
+3) Запуск тестов с генерацией отчетов Allure: pytest --alluredir=reports/allure-results
+
 
 
 
